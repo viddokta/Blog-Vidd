@@ -1,0 +1,212 @@
+/* style.css */
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f8f9fa;
+    color: #495057;
+}
+
+/* Sisipkan seluruh kode CSS yang ada di dalam tag <style> */
+/* ... */
+main {
+    flex: 1;
+}
+
+/* Gaya kolom blog */
+.blog-post {
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+  }
+
+/* Gaya tautan */
+a {
+    color: #007bff; /* Ganti dengan warna tautan yang sesuai */
+    text-decoration: none; /* Jangan beri garis bawah pada tautan */
+    cursor: pointer; /* Tambahkan kursor pointer untuk menunjukkan tautan yang dapat diklik */
+  }
+
+  /* Memberikan jarak di antara tautan */
+  .link-container {
+    margin-right: 10px; /* Sesuaikan dengan jarak yang diinginkan */
+  }
+
+/* Konten yang awalnya tersembunyi */
+  .konten-tambahan {
+    display: none;
+  }
+
+.blog-post img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.call-to-action {
+    padding: 50px 0;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    /* Warna disesuaikan dengan navbar */
+    color: #fff;
+    padding: 20px 0;
+}
+
+.social-icons a {
+    color: #fff;
+    margin: 0 10px;
+}
+
+.welcome-text {
+    text-decoration: underline;
+}
+
+.introduction {
+    text-align: left;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+body {
+    transition: background-color 0.3s, color 0.3s;
+    background-color: #fff;
+    color: #333;
+    padding-top: 56px;
+    /* Padding untuk mencegah tumpang tindih dengan navbar */
+}
+
+body.dark-mode {
+    background-color: #333;
+    color: #fff;
+    /* Dark mode styles */
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.custom-control-label {
+    color: #fff;
+    /* Dark mode styles */
+}
+
+.custom-control-input:checked~.custom-control-label::before {
+    background-color: #fff;
+    border-color: #fff;
+}
+/* Styled toggle switch */
+
+.custom-control-input:checked~.custom-control-label::before {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.custom-control-input:checked~.custom-control-label::after {
+    background-color: #fff;
+}
+
+.custom-control-input:focus~.custom-control-label::before {
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.thumbnails img {
+    height: 80px;
+    border: 4px solid #555;
+    padding: 1px;
+    margin: 0 10px 10px 0;
+}
+
+.thumbnails img:hover {
+    border: 4px solid #00ccff;
+    cursor: pointer;
+}
+
+.preview img {
+    border: 4px solid #444;
+    max-width: 100%; /* Membuat gambar responsif */
+    height: auto;   /* Menjaga rasio aspek gambar */
+}
+
+/* Gaya umum untuk semua lebar layar */
+.gallery {
+    /* Gaya galeri umum */
+}
+
+/* Media query untuk tablet */
+@media (min-width: 600px) {
+    .gallery {
+        /* Gaya khusus untuk tablet */
+    }
+}
+
+/* Media query untuk desktop */
+@media (min-width: 1024px) {
+    .gallery {
+        /* Gaya khusus untuk desktop */
+    }
+}
+
+
+ /* Gaya CSS untuk menyembunyikan daftar latihan awalnya */
+ .exercise-list {
+    display: none;
+}
+
+/* Gaya CSS untuk warna teks biru pada tautan "Contoh Latihan" */
+.exercise-link {
+    cursor: pointer; /* Menambahkan tanda kursor tautan */
+}
+
+.contact-form {
+    text-align: left;
+    margin-top: 20px; /* Sesuaikan margin atas sesuai kebutuhan */
+}
+
+.contact-form label,
+.contact-form input,
+.contact-form textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 12px; /* Sesuaikan padding sesuai kebutuhan */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.contact-form textarea {
+    height: 150px; /* Sesuaikan tinggi textarea sesuai kebutuhan */
+}
+
+.contact-form button {
+    padding: 12px 20px; /* Sesuaikan padding tombol sesuai kebutuhan */
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.pagination {
+    display: flex;
+    list-style: none;
+}
+
+.pagination li {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.pagination li.active {
+    font-weight: bold;
+}

@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Vidd Blog</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- Favicon Viddokta -->
+    <link rel="apple-touch-icon" sizes="57x57" href="./img/iconfav/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./img/iconfav/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./img/iconfav/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./img/iconfav/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./img/iconfav/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./img/iconfav/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./img/iconfav/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./img/iconfav/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/iconfav/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="./img/iconfav/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/iconfav/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./img/iconfav/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/iconfav/favicon-16x16.png">
+    <link rel="manifest" href="./img/iconfav/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="./img/iconfav/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#">
+            <img src="./img/logo.png" width="30" height="30" class="d-inline-block align-top" alt="Logo"> Viddokta
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <a class="nav-link" href="index.html">Beranda</a>
+                <a class="nav-link" href="profile.html">Profile</a>
+                <a class="nav-link" href="about.html">About</a>
+                <a class="nav-link" href="gallery.html">Gallery</a>
+                <a class="nav-link" href="pembelajaran.html">Pembelajaran</a>
+                <a class="nav-link" href="contact.html">Contact</a>
+            </ul>
+        </div>
+        <div class="custom-control custom-switch ml-2">
+            <input type="checkbox" class="custom-control-input" id="darkModeSwitch">
+            <label class="custom-control-label" for="darkModeSwitch">Dark Mode</label>
+        </div>
+    </nav>
+    <main class="container mt-5">
+        <div class="introduction">
+            <h1 class="welcome-text">Selamat datang di Blog Saya!</h1>
+            <pre></pre>
+            <p>
+                Temukan berbagai artikel menarik, panduan praktis, dan pemikiran inspiratif di blog kami. Vidd Blog
+                membawa Anda ke dunia pengetahuan dan ide-ide kreatif. Kami percaya bahwa setiap artikel memiliki
+                keunikan dan memberikan nilai tambah bagi pembaca kami.
+            </p>
+            <p>
+                Dengan beragam topik yang dibahas, mulai dari kreativitas, teknologi, gaya hidup, hingga perjalanan,
+                Vidd Blog menjadi teman setia Anda dalam mencari informasi yang bermanfaat dan menghibur.
+            </p>
+            <p>
+                Selamat menikmati setiap artikel yang kami sajikan. Jangan lupa untuk berlangganan agar tidak
+                ketinggalan pembaruan terbaru!
+            </p>
+        </div>
+        <pre></pre>
+        <div class="blog-post" id="project-1">
+            <h2>#1 Project Portofolio</h2>
+            <p class="text-muted">Tanggal Posting: 28 Oktober 2023</p>
+            <img src="./img/blog/1.png" alt="Gambar Ilustrasi" class="img-fluid">
+            <p></p>
+            <p class="mb-4">
+                Proyek portofolio ini adalah representasi visual dari perjalanan dan keterampilan saya dalam dunia
+                pengembangan web.
+                <div id="konten-tambahan-1" class="konten-tambahan mt-4">
+                    Dengan desain yang menarik dan fungsionalitas yang terintegrasi, portofolio ini memamerkan berbagai
+                    proyek yang telah saya kerjakan. Melalui setiap tautan, Anda dapat menjelajahi proyek-proyek kreatif
+                    yang mencakup teknologi terkini dan konsep desain
+                    inovatif. Saya berharap portofolio ini memberikan wawasan tentang kemampuan dan minat saya dalam
+                    menciptakan solusi web yang menarik dan efektif.
+                </div>
+            </p>
+            <!-- Tautan "Lihat Demo" dengan jarak pembatas -->
+            <span class="link-container"><a href="https://portofolio-viddokta-tailwindcss.netlify.app/"
+                    target="_blank">Lihat Demo</a></span>
+
+            <!-- Tautan "Baca Selengkapnya" dengan pemanggilan fungsi JavaScript -->
+            <span><a href="javascript:void(0);" onclick="tampilkanKonten('konten-tambahan-1')">Baca
+                    Selengkapnya</a></span>
+        </div>
+
+        <!-- Proyek Kedua -->
+        <div class="blog-post" id="project-2">
+            <h2>#2 Project Website Kedai Kopi</h2>
+            <p class="text-muted">Tanggal Posting: 5 Januari 2023</p>
+            <img src="./img/blog/2.png" alt="Gambar Ilustrasi" class="img-fluid">
+            <p></p>
+            <p class="mb-4">
+                Nikmati pengalaman unik dengan sentuhan kopi yang khas dan suasana yang hangat. Di sini, kami
+                menghadirkan lebih dari sekadar secangkir kopi.
+                <div id="konten-tambahan-2" class="konten-tambahan mt-4">
+                    Kami membawa Anda dalam perjalanan rasa yang menggoda dan kenangan yang tak terlupakan. Dengan
+                    desain yang modern dan ramah pengguna, website ini memudahkan Anda untuk menjelajahi menu kopi kami,
+                    mengetahui asal usul biji kopi yang digunakan, dan menikmati
+                    detail unik setiap hidangan. Temukan berbagai pilihan kopi dari berbagai belahan dunia yang
+                    dipanggang dengan hati-hati untuk menciptakan cita rasa yang sempurna. Bergabunglah dengan kami di
+                    Kedai Kopi Kenangan Senja, di mana setiap
+                    tegukan adalah perjalanan menuju kesempurnaan kopi. Selamat menikmati!"
+                </div>
+            </p>
+            <!-- Tautan "Lihat Demo" dengan jarak pembatas -->
+            <span class="mr-4"><a href="https://viddokta.github.io/kopi-kenangansenja/" target="_blank">Lihat
+                    Demo</a></span>
+
+            <!-- Tautan "Baca Selengkapnya " -->
+            <span><a href="javascript:void(0);" onclick="tampilkanKonten('konten-tambahan-2')">Baca
+                    Selengkapnya</a></span>
+        </div>
+
+        <div class="blog-post" id="project-3">
+            <h2>#3 Page 404 Template</h2>
+            <p class="text-muted ">Tanggal Posting: 26 Febuari 2023</p>
+            <img src="./img/blog/3.png " alt="Gambar Ilustrasi " class="img-fluid ">
+            <p></p>
+            <p class="mb-4">
+                Selamat datang di halaman 404 kami! Meskipun ini bukan destinasi yang diinginkan, tetapi kami siap
+                membimbing Anda kembali ke jalur yang benar.
+                <div id="konten-tambahan-3" class="konten-tambahan mt-4">
+                    Kami mengerti bahwa kadang-kadang dalam perjalanan digital, kita bisa tersesat. Halaman yang Anda
+                    cari mungkin tersembunyi di antara garis kode atau mungkin telah berpindah tempat. Kami ingin
+                    memastikan bahwa setiap langkah yang Anda ambil di dunia online
+                    ini bermakna. Mari kita kembali ke beranda dan bersama-sama menjelajahi petualangan tak terduga yang
+                    menunggu. Terima kasih atas kesabaran dan pengertian Anda. Sampai jumpa di halaman lain!" Anda dapat
+                    menyesuaikan kata-kata tersebut
+                    sesuai dengan nuansa dan karakteristik dari proyek template halaman 404 Anda.
+                </div>
+            </p>
+            <!-- Tautan "Lihat Demo " dengan jarak pembatas -->
+            <span class="mr-4"><a href="https://viddokta.github.io/Page-404-Template/" target="_blank">Lihat
+                    Demo</a></span>
+
+            <!-- Tautan "Baca Selengkapnya " -->
+            <span><a href="javascript:void(0);" onclick="tampilkanKonten('konten-tambahan-3')">Baca
+                    Selengkapnya</a></span>
+        </div>
+
+        <div class="blog-post" id="project-4">
+            <h2>#4 Website Undangan Pernikahan</h2>
+            <p class="text-muted ">Tanggal Posting: 29 November 2023</p>
+            <img src="./img/blog/4.png " alt="Gambar Ilustrasi " class="img-fluid ">
+            <p></p>
+            <p class="mb-4">
+                Proyek "Bahagia Bersama" adalah sebuah website undangan pernikahan yang kami rancang dengan penuh cinta
+                dan perhatian.
+                <div id="konten-tambahan-4" class="konten-tambahan mt-4">
+                    Dengan halaman beranda yang ramah, kami ingin membagikan cuplikan kisah cinta kami dan memberikan
+                    gambaran tentang acara pernikahan yang akan datang. Website ini tidak hanya menyediakan informasi
+                    lengkap tentang tanggal, waktu, dan lokasi pernikahan,
+                    tetapi juga menampilkan galeri gambar dan video pra-pernikahan yang mencakup momen-momen indah
+                    selama masa persiapan. Salah satu fitur unik yang kami tawarkan adalah "Cerita Cinta Interaktif," di
+                    mana tamu dapat menjelajahi perjalanan
+                    cinta kami melalui teks, gambar, dan animasi. Kami juga menyediakan formulir RSVP digital untuk
+                    memudahkan tamu dalam mengkonfirmasi kehadiran mereka secara online. Selain itu, terdapat "Wall of
+                    Wishes" di mana tamu dapat memberikan
+                    ucapan dan harapan mereka untuk pernikahan kami. Dalam mengembangkan website ini, kami menggunakan
+                    teknologi HTML, CSS, dan JavaScript untuk front-end, serta platform manajemen konten untuk
+                    pemeliharaan yang mudah. Hosting dilakukan
+                    di platform handal untuk memastikan ketersediaan maksimal. Proyek ini bertujuan memberikan
+                    pengalaman undangan pernikahan yang informatif, interaktif, dan hangat bagi para tamu. Kami berharap
+                    setiap klik dan interaksi di website ini
+                    menjadi bagian dari perayaan cinta dan kebersamaan kami, dan kami tak sabar untuk berbagi
+                    kebahagiaan kami dengan semua tamu yang hadir. Selamat datang di perjalanan cinta kami yang tak
+                    terlupakan!
+                </div>
+            </p>
+            <!-- Tautan "Lihat Demo " dengan jarak pembatas -->
+            <span class="mr-4"><a href="https://web-davidddesii-wedding.netlify.app/" target="_blank">Lihat
+                    Demo</a></span>
+
+            <!-- Tautan "Baca Selengkapnya " -->
+            <span><a href="javascript:void(0);" onclick="tampilkanKonten('konten-tambahan-4')">Baca
+                    Selengkapnya</a></span>
+        </div>
+
+        <div class="blog-post" id="project-5">
+            <h2>#5 Contoh Membuat Form dengan PHP</h2>
+            <p class="text-muted ">Tanggal Posting: 30 Desember 2022</p>
+            <img src="./img/blog/5.png " alt="Gambar Ilustrasi " class="img-fluid ">
+            <p></p>
+            <p class="mb-4">
+                Proyek "Contoh Membuat Form dengan PHP" adalah implementasi sederhana namun efektif tentang cara membuat
+                formulir web interaktif menggunakan PHP.
+                <div id="konten-tambahan-5" class="konten-tambahan mt-4">
+                    Dengan tujuan untuk memberikan pemahaman dasar tentang penggunaan PHP dalam pengembangan web, proyek
+                    ini menunjukkan langkah-langkah praktis dalam membuat dan memproses formulir. Pertama, halaman
+                    formulir dibangun dengan HTML, menampilkan elemen formulir
+                    seperti input teks, area teks, dan tombol kirim. Kemudian, dengan bantuan PHP, proyek ini
+                    menggambarkan cara mengakses dan memproses data yang dikirim oleh pengguna melalui formulir
+                    tersebut.
+                    <p>
+                        Fitur utama proyek ini melibatkan penggunaan PHP untuk:
+                        <ul>
+                            <li>Mengambil dan memvalidasi data formulir yang dikirim oleh pengguna.</li>
+                            <li>Menangani logika bisnis atau pemrosesan data, seperti menyimpan data ke database atau
+                                mengirim email notifikasi.</li>
+                            <li>Memberikan umpan balik kepada pengguna, baik itu untuk memberi tahu mereka bahwa
+                                formulir telah berhasil dikirim atau untuk menangani kesalahan input.</li>
+                        </ul>
+                        <p>
+                            Proyek ini menekankan praktik-praktik terbaik dalam keamanan web, seperti validasi input dan
+                            pencegahan serangan seperti injeksi SQL atau Cross-Site Scripting (XSS). Selain itu,
+                            dokumentasi yang jelas dan komentar pada kode memberikan panduan bagi pengembang
+                            pemula untuk memahami setiap langkah dalam proses pembuatan formulir. Dengan proyek ini,
+                            diharapkan para pengembang pemula dapat menguasai dasar-dasar pembuatan dan pemrosesan
+                            formulir web menggunakan PHP, membuka pintu bagi
+                            pemahaman lebih lanjut tentang pengembangan web dinamis. Proyek ini juga dapat dijadikan
+                            dasar untuk pengembangan formulir yang lebih kompleks dan fungsional dalam proyek-proyek web
+                            berikutnya.
+                        </p>
+                    </p>
+                </div>
+            </p>
+            <!-- Tautan "Lihat Demo " dengan jarak pembatas -->
+            <span class="mr-4"><a href="https://contactform-php.netlify.app/" target="_blank">Lihat Demo</a></span>
+
+            <!-- Tautan "Baca Selengkapnya " -->
+            <span><a href="javascript:void(0);" onclick="tampilkanKonten('konten-tambahan-5')">Baca
+                    Selengkapnya</a></span>
+        </div>
+
+        <div class="blog-post" id="project-6">
+            <h2>#6 Calculator iPhone Style</h2>
+            <p class="text-muted ">Tanggal Posting: 4 July 2023</p>
+            <img src="./img/blog/6.png " alt="Gambar Ilustrasi " class="img-fluid ">
+            <p></p>
+            <p <p class="mb-4">
+                Proyek "Calculator iPhone Style" adalah implementasi desain kalkulator yang terinspirasi oleh antarmuka
+                kalkulator pada perangkat iPhone.
+                <div id="konten-tambahan-6" class="konten-tambahan mt-4">
+                    Dengan fokus pada penggunaan elemen desain yang bersih, intuitif, dan responsif, proyek ini membawa
+                    pengalaman menghitung yang familiar dan nyaman ke dalam lingkungan web.
+                    <p>
+                        Fitur utama dari proyek ini mencakup:
+                        <ul>
+                            <li><strong>Desain Responsif: </strong> Antarmuka kalkulator dirancang untuk beradaptasi
+                                dengan berbagai ukuran layar, memberikan pengalaman pengguna yang konsisten di berbagai
+                                perangkat, termasuk desktop dan perangkat seluler.
+                            </li>
+                            <li><strong>Operasi Matematika Dasar: </strong>Kalkulator mendukung operasi matematika dasar
+                                seperti penambahan, pengurangan, perkalian, dan pembagian, memastikan pengguna dapat
+                                dengan mudah melakukan perhitungan sehari-hari.
+                            </li>
+                            <li><strong>Tata Letak yang Bersih: </strong>Tata letak kalkulator dirancang dengan bersih
+                                dan rapi, memudahkan pengguna untuk menavigasi dan mengidentifikasi tombol yang
+                                diperlukan.
+                            </li>
+                            <li><strong>Animasi Responsif: </strong>Pengguna akan menemui animasi responsif saat menekan
+                                tombol kalkulator, memberikan umpan balik visual yang menyenangkan dan meningkatkan
+                                pengalaman pengguna.
+                            </li>
+                            <li><strong>Memori Sementara (Memory): </strong>Kalkulator dilengkapi dengan fitur memori
+                                sementara, memungkinkan pengguna menyimpan dan mengakses angka untuk penggunaan
+                                berikutnya.
+                            </li>
+                            <li><strong>Histori Perhitungan: </strong>Fitur histori perhitungan memungkinkan pengguna
+                                melihat riwayat perhitungan sebelumnya, memberikan visibilitas terhadap langkah-langkah
+                                yang diambil dalam proses perhitungan.
+                            </li>
+                        </ul>
+                        <p>
+                            Proyek ini dirancang untuk memenuhi kebutuhan pengguna yang mencari kalkulator berbasis web
+                            yang tidak hanya berfungsi dengan baik tetapi juga menawarkan estetika antarmuka yang
+                            menarik. Dengan menggunakan teknologi web seperti HTML, CSS, dan JavaScript,
+                            proyek ini dapat dengan mudah diakses dan digunakan oleh pengguna di seluruh platform.
+                            Dengan demikian, "Calculator iPhone Style" menjadi pilihan ideal bagi mereka yang
+                            menginginkan kalkulator praktis dengan sentuhan desain
+                            yang elegan dan modern.
+                        </p>
+                    </p>
+                </div>
+            </p>
+            <!-- Tautan "Lihat Demo " dengan jarak pembatas -->
+            <span class="mr-4"><a href="https://calculator-iphone-style.netlify.app/" target="_blank">Lihat
+                    Demo</a></span>
+
+            <!-- Tautan "Baca Selengkapnya " -->
+            <span><a href="javascript:void(0);" onclick="tampilkanKonten('konten-tambahan-6')">Baca
+                    Selengkapnya</a></span>
+        </div>
+
+        <div class="blog-post" id="project-7">
+            <h2>#7 Game Tic Tac Toe Sederhana</h2>
+            <p class="text-muted ">Tanggal Posting: 26 Mei 2023</p>
+            <img src="./img/blog/7.png " alt="Gambar Ilustrasi " class="img-fluid ">
+            <p></p>
+            <p class="mb-4">
+                "Game Tic Tac Toe Sederhana adalah reimajinasi digital dari permainan papan klasik yang dihadirkan dalam
+                antarmuka yang bersih dan minimalis.
+                <div id="konten-tambahan-7" class="konten-tambahan mt-4">
+                    Didesain untuk memberikan pengalaman bermain yang sederhana namun memikat, game ini memungkinkan dua
+                    pemain bersaing secara lokal, memilih simbol 'X' atau 'O' untuk mengisi kotak pada papan permainan.
+                    Animasi yang efektif menyorot garis pemenang saat
+                    permainan selesai, sementara indikator giliran dan pemberitahuan hasil memberikan keteraturan dan
+                    kejelasan selama permainan. Dengan fitur reset otomatis, pemain dapat dengan mudah memulai
+                    pertandingan baru tanpa perlu me-refresh halaman.
+                    Dirancang menggunakan HTML, CSS, dan JavaScript, proyek ini menyajikan permainan klasik dengan
+                    sentuhan modern yang cocok untuk semua penggemar Tic Tac Toe yang mencari hiburan santai dan
+                    menyenangkan."
+                </div>
+            </p>
+            <!-- Tautan "Lihat Demo " dengan jarak pembatas -->
+            <span class="mr-4"><a href="https://tictactoe-game-sederhana.netlify.app/" target="_blank">Lihat
+                    Demo</a></span>
+
+            <!-- Tautan "Baca Selengkapnya " -->
+            <span><a href="javascript:void(0);" onclick="tampilkanKonten('konten-tambahan-7')">Baca
+                    Selengkapnya</a></span>
+        </div>
+
+        <div class="blog-post" id="project-8">
+            <h2>#8 HTML & CSS Toko Online</h2>
+            <p class="text-muted ">Tanggal Posting: 5 April 2023</p>
+            <img src="./img/blog/8.png " alt="Gambar Ilustrasi " class="img-fluid ">
+            <p></p>
+            <p class="mb-4">
+                Proyek "HTML & CSS Toko Online" adalah sebuah platform e-commerce yang menonjol dengan desain responsif
+                dan antarmuka pengguna yang menarik.
+                <div id="konten-tambahan-8" class="konten-tambahan mt-4">
+                    Halaman beranda yang dirancang dengan cermat memamerkan produk unggulan dan penawaran spesial,
+                    menarik pengunjung untuk menjelajahi berbagai kategori produk. Setiap produk memiliki halaman detail
+                    yang komprehensif, menyajikan gambar, deskripsi, dan harga.
+                    Pengguna dapat dengan mudah menambahkan produk ke keranjang belanja responsif, dan halaman
+                    pembayaran yang aman memastikan proses pembelian yang lancar. Dengan footer informatif yang mencakup
+                    kontak dan tautan ke kebijakan privasi,
+                    proyek ini memberikan pengalaman belanja online yang intuitif dan menyenangkan. Dibangun dengan HTML
+                    untuk struktur dan CSS untuk desain, proyek ini memberikan dasar yang solid bagi pengembang pemula
+                    yang ingin mendalami pembuatan
+                    antarmuka pengguna e-commerce.
+                </div>
+            </p>
+            <!-- Tautan "Lihat Demo " dengan jarak pembatas -->
+            <span class="mr-4"><a href="https://toko-online-e-commerce.netlify.app/" target="_blank">Lihat
+                    Demo</a></span>
+
+            <!-- Tautan "Baca Selengkapnya " -->
+            <span><a href="javascript:void(0);" onclick="tampilkanKonten('konten-tambahan-8')">Baca
+                    Selengkapnya</a></span>
+        </div>
+
+        <div class="blog-post ">
+            <h2>#9 Program Kuis Sederhana</h2>
+            <p class="text-muted ">Tanggal Posting: 13 Maret 2023</p>
+            <img src="./img/blog/9.png " alt="Gambar Ilustrasi " class="img-fluid ">
+            <p></p>
+            <p>
+                Proyek Program Kuis Sederhana adalah implementasi permainan kuis interaktif yang bertujuan memberikan
+                pengalaman belajar yang menyenangkan.
+                <div id="konten-tambahan-9" class="konten-tambahan mt-4">
+                    Dengan menggunakan bahasa pemrograman tertentu, program ini memungkinkan pengguna untuk menguji
+                    pengetahuan mereka melalui serangkaian pertanyaan yang bervariasi. Antarmuka yang sederhana dan
+                    responsif memandu pengguna melalui setiap langkah, sementara
+                    sistem skoring memberikan umpan balik langsung tentang seberapa baik mereka menjawab setiap
+                    pertanyaan. Dengan keberagaman topik dan tingkat kesulitan yang dapat diatur, program ini cocok
+                    sebagai alat pendidikan yang menarik dan dapat
+                    disesuaikan. Melalui desain yang intuitif, proyek ini dirancang untuk memperkaya pengalaman
+                    pembelajaran sambil menyajikan suasana kuis yang menyenangkan bagi pengguna.
+                </div>
+            </p>
+            <!-- Tautan "Lihat Demo " dengan jarak pembatas -->
+            <span class="mr-4"><a href="https://kuis-sederhana.netlify.app/" target="_blank">Lihat Demo</a></span>
+
+            <!-- Tautan "Baca Selengkapnya " -->
+            <span><a href="javascript:void(0);" onclick="tampilkanKonten('konten-tambahan-9')">Baca
+                    Selengkapnya</a></span>
+        </div>
+
+        <div class="blog-post" id="project-10">
+            <h2>#10 Contoh login-page</h2>
+            <p class="text-muted ">Tanggal Posting: 17 Agustus 2023</p>
+            <img src="./img/blog/10.png " alt="Gambar Ilustrasi " class="img-fluid ">
+            <p></p>
+            <p class="mb-4">
+                Proyek Contoh Halaman Login adalah implementasi sederhana dari antarmuka login untuk aplikasi atau situs
+                web.
+                <div id="konten-tambahan-10" class="konten-tambahan mt-4">
+                    Dengan fokus pada desain yang bersih dan fungsionalitas yang jelas, halaman login ini menyediakan
+                    pengguna dengan tempat yang aman untuk memasukkan informasi kredensial mereka. Didesain dengan
+                    elemen-elemen yang minimalis, seperti formulir input untuk
+                    username dan password, serta tombol login yang terlihat jelas, proyek ini memprioritaskan pengalaman
+                    pengguna yang mudah dan cepat. Desain responsif memastikan keberlanjutan antarmuka di berbagai
+                    perangkat. Meskipun sederhana, proyek
+                    ini dapat diintegrasikan dan dikembangkan lebih lanjut untuk kebutuhan autentikasi pada berbagai
+                    jenis aplikasi atau platform. Dengan begitu, Contoh Halaman Login ini dapat dijadikan dasar yang
+                    solid untuk pengembangan lebih lanjut
+                    dalam implementasi login yang aman dan mudah digunakan.
+                </div>
+            </p>
+            <!-- Tautan "Lihat Demo " dengan jarak pembatas -->
+            <span class="mr-4"><a href="https://exlogin-page.netlify.app/" target="_blank">Lihat Demo</a></span>
+
+            <!-- Tautan "Baca Selengkapnya " -->
+            <span><a href="javascript:void(0);" onclick="tampilkanKonten('konten-tambahan-10')">Baca
+                    Selengkapnya</a></span>
+        </div>
+
+        <div class="blog-post" id="project-2">
+            <h2>#11 Blog Objek Wisata</h2>
+            <p class="text-muted ">Tanggal Posting: 15 Agustus 2023</p>
+            <img src="./img/blog/11.png " alt="Gambar Ilustrasi " class="img-fluid ">
+            <p></p>
+            <p class="mb-4">
+                Proyek Blog Objek Wisata adalah platform online yang mengundang pengunjung untuk menjelajahi keindahan
+                dan keunikan destinasi wisata.
+                <div id="konten-tambahan-11" class="konten-tambahan mt-4">
+                    Melalui desain yang menarik dan konten informatif, blog ini menyajikan pengalaman digital yang
+                    memukau bagi para pembaca yang mencari inspirasi perjalanan. Setiap objek wisata diceritakan dengan
+                    penuh detail, dilengkapi dengan gambar menarik, informasi
+                    praktis, dan pengalaman pribadi. Kategori yang jelas memudahkan pembaca untuk menemukan destinasi
+                    sesuai minat mereka. Terdapat juga fitur komentar untuk berbagi pengalaman dan tips. Dengan
+                    menggunakan teknologi web terkini, proyek
+                    ini memberikan pandangan virtual yang memikat dan dapat diakses oleh para penggemar perjalanan dari
+                    berbagai lapisan masyarakat.
+                </div>
+            </p>
+            <!-- Tautan "Lihat Demo " dengan jarak pembatas -->
+            <span class="mr-4"><a href="https://viddokta.github.io/viddstudio/" target="_blank">Lihat Demo</a></span>
+
+            <!-- Tautan "Baca Selengkapnya " -->
+            <span><a href="javascript:void(0);" onclick="tampilkanKonten('konten-tambahan-11')">Baca
+                    Selengkapnya</a></span>
+        </div>
+    </main>
+    <section class="call-to-action ">
+        <div class="container ">
+            <h2>Ikuti Blog Kami!</h2>
+            <p>Dapatkan pembaruan terbaru langsung ke kotak masuk Anda.</p>
+            <button class="btn btn-light ">Berlangganan</button>
+        </div>
+    </section>
+    <footer class="bg-dark text-white py-4 ">
+        <div class="container text-center ">
+            <p>&copy; 2023 Vidd Website. All rights reserved.</p>
+
+            <!-- Tambahkan ikon media sosial tanpa teks -->
+            <div class="social-icons ">
+                <a href="https://www.facebook.com/profile.php?id=100010082164955&mibextid=JRoKGi " target="_blank "
+                    class="text-white mx-2 "><i class="fab fa-facebook "></i></a>
+                <a href="https://www.instagram.com/vidd.okt " target="_blank " class="text-white mx-2 "><i
+                        class="fab fa-instagram "></i></a>
+                <a href="https://twitter.com/viddokt " target="_blank " class="text-white mx-2 "><i
+                        class="fab fa-twitter "></i></a>
+                <a href="https://www.tiktok.com/@viddxml_ " target="_blank " class="text-white mx-2 "><i
+                        class="fab fa-tiktok "></i></a>
+                <a href="https://www.youtube.com/@davidokta2894 " target="_blank " class="text-white mx-2 "><i
+                        class="fab fa-youtube "></i></a>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js "></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js "></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js "></script>
+    <script src="./js/script.js "></script>
+</body>
+
+</html>

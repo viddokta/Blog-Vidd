@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vidd Blog</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- Favicon Viddokta -->
+    <link rel="apple-touch-icon" sizes="57x57" href="./img/iconfav/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./img/iconfav/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./img/iconfav/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./img/iconfav/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./img/iconfav/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./img/iconfav/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./img/iconfav/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./img/iconfav/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/iconfav/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="./img/iconfav/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/iconfav/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./img/iconfav/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/iconfav/favicon-16x16.png">
+    <link rel="manifest" href="./img/iconfav/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="./img/iconfav/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#">
+            <img src="./img/logo.png" width="30" height="30" class="d-inline-block align-top" alt="Logo"> Viddokta
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <a class="nav-link" href="index.html">Beranda</a>
+                <a class="nav-link" href="profile.html">Profile</a>
+                <a class="nav-link" href="about.html">About</a>
+                <a class="nav-link" href="gallery.html">Gallery</a>
+                <a class="nav-link" href="pembelajaran.html">Pembelajaran</a>
+                <a class="nav-link" href="contact.html">Contact</a>
+            </ul>
+        </div>
+        <div class="custom-control custom-switch ml-2">
+            <input type="checkbox" class="custom-control-input" id="darkModeSwitch">
+            <label class="custom-control-label" for="darkModeSwitch">Dark Mode</label>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <div class="gallery" align="center">
+            <h1>My Galery Foto</h1>
+            <p>Contoh Galeri Foto Menggunakan HTML, CSS dan Javascript</p>
+
+            <br/>
+
+            <div class="thumbnails">
+                <img onmouseover="preview.src=img1.src" name="img1" src="./img/img1.jpeg" alt="viddokta" /><img onmouseover="preview.src=img2.src" name="img2" src="./img/img2.JPG" alt="viddokta" /><img onmouseover="preview.src=img3.src" name="img3" src="./img/img3.png"
+                    alt="viddokta" /><img onmouseover="preview.src=img4.src" name="img4" src="./img/img4.jpeg" alt="viddokta" /><img onmouseover="preview.src=img5.src" name="img5" src="./img/img5.jpeg" alt="viddokta" />
+            </div><br/>
+
+            <div class="preview" align="center">
+                <img name="preview" src="images/img1.jpg" alt="" />
+            </div>
+        </div>
+    </div>
+    <br/>
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <p>&copy; 2023 Vidd Website. All rights reserved.</p>
+
+            <!-- Tambahkan ikon media sosial tanpa teks -->
+            <div class="social-icons">
+                <a href="https://www.facebook.com/profile.php?id=100010082164955&mibextid=JRoKGi" target="_blank" class="text-white mx-2"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/vidd.okt" target="_blank" class="text-white mx-2"><i class="fab fa-instagram"></i></a>
+                <a href="https://twitter.com/viddokt" target="_blank" class="text-white mx-2"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.tiktok.com/@viddxml_" target="_blank" class="text-white mx-2"><i class="fab fa-tiktok"></i></a>
+                <a href="https://www.youtube.com/@davidokta2894" target="_blank" class="text-white mx-2"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
